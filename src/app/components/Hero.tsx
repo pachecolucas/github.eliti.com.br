@@ -12,10 +12,10 @@ export default function Hero() {
         Cabral.
       </p>
 
-      <div className="text-center text-xl font-bold bg-white p-5 text-slate-800 rounded-lg shadow-xl">
+      <div className="text-center text-xl font-regular bg-white p-5 text-slate-800 rounded-lg shadow-xl">
         Se você fala sério em entrar para a área de programação então saiba que
         existe uma rede social especialmente desenvolvida para nerds chamada{" "}
-        <b>GitHub</b> que você tem a obrigação moral de conhecer.
+        <b className="text-purple-700">GitHub</b> que você vai adorar conhecer.
       </div>
 
       <p className="text-lg">
@@ -39,17 +39,18 @@ export default function Hero() {
         <div className="flex flex-col gap-3">
           <p className="text-sm block font-normal">
             Esta é uma tarefa relativamente fácil. É tipo pedir para alguém
-            entender o que é o Instagram. Mas existem níveis de entendimento e
-            isso é o que define que tipo de profissional você quer ser.
+            entender o que é o <b>Instagram</b>. Mas existem níveis de
+            entendimento e isso é o que define que tipo de profissional você
+            quer ser.
           </p>
           <p className="text-sm block font-normal">
-            Na sua pesquisa você pode acabar encontrando algo dizendo: {'"'}
+            Na sua pesquisa você pode acabar encontrando algo dizendo:
             <span className="font-bold">
               GitHub é uma plataforma de desenvolvimento colaborativo que aloja
               projetos na nuvem utilizando o sistema de controle de versões
               chamado Git
             </span>
-            .{'"'} Daí você terá a resposta certa, mas não necessariamente o
+            . Daí você terá a resposta certa, mas não necessariamente o
             entendimento.
           </p>
           <p className="text-sm block font-normal">
@@ -58,6 +59,11 @@ export default function Hero() {
             procure saber as coisas de verdade a tal ponto que possa se sentir
             seguro sendo capaz de explicar de várias formas diferentes com suas
             palavras que é o <b>GitHub</b> sem nunca mais esquecer.
+          </p>
+          <p className="text-sm block font-normal">
+            Procure compreender de tal forma que você seja capaz de explicar
+            para qualquer pessoa o que é o <b>GitHub</b> com naturalidade. Este
+            é o nível de entendimento que esperamos dos nossos aprendizes.
           </p>
         </div>
         <p className="text-xs block font-bold mt-2">Dicas:</p>
