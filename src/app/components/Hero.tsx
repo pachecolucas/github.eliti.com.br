@@ -2,10 +2,12 @@ import Verificar from "./Verificar";
 export default function Hero() {
   return (
     <div className="flex flex-col gap-7 py-5 px-5">
-      <h1 className="font-bold uppercase text-xl text-center py-5">
-        Desafio <span className="text-[2em]">GitHub</span> da ELITI
-      </h1>
-
+      <div className="py-5 text-center uppercase">
+        <h1 className="font-bold text-xl">
+          Desafio <span className="text-[2em]">1</span> da ELITI
+        </h1>
+        <p className="font-bold">Entender o que é GitHub e ter uma conta</p>
+      </div>
       <p>
         É provável que você tenha uma conta em redes sociais como o{" "}
         <b>Instagram</b> e o <b>Tiktok</b>. Se for mais velho já deve ter usado
@@ -31,11 +33,13 @@ export default function Hero() {
       </p>
 
       <div className="text-xl font-bold bg-white p-5 text-slate-800 rounded-lg shadow-xl">
-        <div className="my-3 text-center">
-          <div className="bg-purple-700 text-white w-10 m-auto rounded-full">
-            1
+        <div className="my-3 text-center flex gap-2">
+          <div className="bg-purple-700 text-white w-14 m-auto rounded-full flex-none">
+            a
           </div>
-          <div>Entenda o que é GitHub</div>
+          <div className="flex-auto text-left leading-6">
+            Entenda o que é GitHub
+          </div>
         </div>
         <div className="flex flex-col gap-3">
           <p className="text-sm block font-normal">
@@ -93,11 +97,13 @@ export default function Hero() {
       </div>
 
       <div className="text-xl font-bold bg-white p-5 text-slate-800 rounded-lg shadow-xl">
-        <div className="my-3 text-center">
-          <div className="bg-purple-700 text-white w-10 m-auto rounded-full">
-            2
+        <div className="my-3 text-center flex gap-2">
+          <div className="bg-purple-700 text-white w-14 m-auto rounded-full flex-none">
+            b
           </div>
-          <div>Crie sua conta no GitHub.com</div>
+          <div className="flex-auto text-left leading-6">
+            Crie sua conta no GitHub.com
+          </div>
         </div>
         <div className="flex flex-col gap-3">
           <p className="text-sm block font-normal">
@@ -114,11 +120,13 @@ export default function Hero() {
       </div>
 
       <div className="text-xl font-bold bg-white p-5 text-slate-800 rounded-lg shadow-xl">
-        <div className="my-3 text-center">
-          <div className="bg-purple-700 text-white w-10 m-auto rounded-full">
-            3
+        <div className="my-3 text-center flex gap-2">
+          <div className="bg-purple-700 text-white w-14 m-auto rounded-full flex-none">
+            c
           </div>
-          <div>Adicione seu nome completo no perfil</div>
+          <div className="flex-auto text-left leading-6">
+            Adicione seu nome completo no perfil
+          </div>
         </div>
         <span className="text-sm block font-normal">
           Nós utilizaremos esta conta do <b>GitHub</b> que você criar para
@@ -133,26 +141,30 @@ export default function Hero() {
       </div>
 
       <div className="text-xl font-bold bg-white p-5 text-slate-800 rounded-lg shadow-xl">
-        <div className="my-3 text-center">
-          <div className="bg-purple-700 text-white w-10 m-auto rounded-full">
-            4
+        <div className="my-3 text-center flex gap-2">
+          <div className="bg-purple-700 text-white w-14 m-auto rounded-full flex-none">
+            d
           </div>
-          <div>Adicione uma foto profissional no perfil</div>
+          <div className="flex-auto text-left leading-6">
+            Foto profissional no perfil
+          </div>
         </div>
         <span className="text-sm block font-normal">
-          Através dessa foto que você será identificado na ELITI. Portanto,
-          capriche no look e procure utilizar uma foto que transmita certo
-          profissionalismo. Afinal, você não quer assustar quem pretende te
-          contratar, certo?
+          Adicione uma foto profissional no seu perfil do GitHub. Através dessa
+          foto que você será identificado na ELITI. Portanto, capriche no look e
+          procure utilizar uma foto que transmita certo profissionalismo.
+          Afinal, você não quer assustar quem pretende te contratar, certo?
         </span>
       </div>
 
       <div className="text-xl font-bold bg-white p-5 text-slate-800 rounded-lg shadow-xl">
-        <div className="my-3 text-center">
-          <div className="bg-purple-700 text-white w-10 m-auto rounded-full">
-            5
+        <div className="my-3 text-center flex gap-2">
+          <div className=" bg-purple-700 text-white w-14 m-auto rounded-full flex-none">
+            e
           </div>
-          <div>Informe seu username e envie para nosso Whatsapp</div>
+          <div className="flex-auto text-left leading-6">
+            Informe seu username e envie para nosso Whatsapp
+          </div>
         </div>
         <div className="flex flex-col gap-3 my-3">
           <p className="text-sm block font-normal">
