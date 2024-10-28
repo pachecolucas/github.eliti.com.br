@@ -1,4 +1,7 @@
+import Image from "next/image";
 import Verificar from "./Verificar";
+import jimCarrey from "./frustrated.gif";
+
 export default function Hero() {
   return (
     <div className="flex flex-col gap-7 py-5 px-5">
@@ -155,6 +158,30 @@ export default function Hero() {
           procure utilizar uma foto que transmita certo profissionalismo.
           Afinal, você não quer assustar quem pretende te contratar, certo?
         </span>
+        <div className="bg-red-200 p-3 mt-3 text-red-900 text-sm flex gap-4 rounded">
+          <div className="flex-auto min-w-[30%]">
+            <Image
+              src={jimCarrey.src}
+              width={372}
+              height={280}
+              alt="Jim Carrey"
+            />
+          </div>
+          <div className="">
+            <h3>Dica de amigo</h3>
+            <p className="font-semibold">
+              Você não vai passar se não colocar uma foto profissional na sua
+              conta do GitHub. Vários infelizes que dizem ter lido estas
+              instruções ousam em enviar o link do seu GitHub ao final sem
+              nenhuma foto no perfil. Caso faça isso, você será reprovado nos
+              testes.
+            </p>
+            <p className="font-normal">
+              Preciso falar o que acontecerá se vier com uma foto de anime? 🤦🏻‍♂️
+              Espero que não! 🙏
+            </p>
+          </div>
+        </div>
       </div>
 
       <div className="text-xl font-bold bg-white p-5 text-slate-800 rounded-lg shadow-xl">
